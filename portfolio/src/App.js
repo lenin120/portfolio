@@ -1,16 +1,22 @@
 import { FirstPage } from "./components/FirstPage";
+import "./index.css"
+import React from "react";
+import { SecondPage } from "./components/SecondPage";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-      </header>
-      <body>
+const App = () => {
 
-      <FirstPage/>
-      </body>
-    </div>
-  );
+
+    return (
+        <div className="App">
+            <header className="App-header">
+                <FirstPage />
+            </header>
+            <body>
+                <SecondPage/>
+            </body>
+        </div>
+    );
+
 }
 
 export default App;
