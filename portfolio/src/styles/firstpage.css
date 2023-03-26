@@ -1,9 +1,6 @@
 
-.App-header{
-    margin-top: 5%;
-}
 .logo{
-    margin-top: 15%;
+    margin-top: 5%;
     margin-bottom: 1%;
     display: grid;
     justify-content: center;
@@ -15,8 +12,8 @@
 }
 
 .logo label {
-    margin-top: 3%;
-    font-family: Helvetica, sans-serif;
+    margin-top: 3% 3% 3% 3%;
+    font-family: "Montserrat";
     font-size: 150%;
     font-weight: bold;
     padding-top: none;
@@ -25,6 +22,7 @@
 
 .tags {
     display: flex;
+    font-family: "Montserrat";
     justify-content: center;
     column-count: 3;
     column-gap: 2%;
@@ -45,11 +43,14 @@
     display: flex;
     justify-content: center;
     column-count: 3;
-    column-gap: -2%;
 }
 
 .links a {
     margin: 1% 1%;
+}
+
+.links .github{
+    margin-top: 2%;
 }
 
 .links a:link{
@@ -91,7 +92,6 @@
 
 .bounce{
     position: static;
-    bottom: -20%;
     animation: bounce 2s infinite ease-in-out;
     -webkit-animation: bounce 2s infinite ease-in-out;  
 }
@@ -108,6 +108,3 @@
     100% { transform: translateY(-5px) }
 }
 
-.links .github{
-    margin-top: 2%;
-}
